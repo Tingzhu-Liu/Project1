@@ -5,5 +5,8 @@
 {% endblock %}
 
 {% block body %}
-<h1 style="color: red; text-align: center;">{{message}}</h1>
+    <h1 style="color: red; text-align: center;">{{message}}</h1>
+    {% if title %}
+    <li><a href="{% url 'title' title %}">{{title}}</a></li>
+    {% endif %}
 {% endblock %}

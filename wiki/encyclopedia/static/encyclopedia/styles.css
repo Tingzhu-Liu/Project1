@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: white;
+    overflow: auto;
 }
 
 code {
@@ -13,8 +14,8 @@ h1 {
 }
 
 textarea {
-    height: 90vh;
-    width: 80%;
+    height: 80vh;
+    width: 90%;
 }
 
 .main {
@@ -46,3 +47,22 @@ textarea {
 #search-btn:hover{
     background-color: #d9d9d9;
 }
+
+#id_content{
+    display: block;
+    margin: 10px 3px;
+}
+
+#id_title{
+    margin-left: 5px;
+}
+
+.btn-primary{
+    display: block;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%)
+
+}
+
+
